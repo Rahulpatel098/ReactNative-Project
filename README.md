@@ -8,7 +8,7 @@
 
 - 🔍 **Search Movies & Series** from the TMDB API
 - 🎞️ **Trending Movies Carousel** for quick discovery
-- 🤖 **AI-Powered Chatbot** using OpenRouter (GPT-4o)
+- 🤖 **AI-Powered Chatbot** using OpenRouter 
 - 🌌 **Stylish UI** with Tailwind-powered layout (NativeWind)
 - ☁️ **Appwrite Integration** for backend functionality
 
@@ -51,10 +51,9 @@
 | Framework    | React Native + Expo      |
 | Styling      | Tailwind CSS (NativeWind)|
 | API          | TMDB API                 |
-| AI Assistant | OpenRouter (GPT-4o)      |
+| AI Assistant | OpenRouter               |
 | Backend      | Appwrite BaaS            |
 
 ---
 
-## 📁 Folder Structure
 
