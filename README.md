@@ -1,50 +1,60 @@
-# Welcome to your Expo app 👋
+# 🎬 MovieStack
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**MovieStack** is a cross-platform mobile app built with **React Native + Expo** that lets users explore, search, and get movie recommendations powered by **AI**. It fetches data from the **TMDB API**, integrates **OpenRouter’s GPT-4o** for movie suggestions, and uses **Appwrite** for backend services.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Features
 
-   ```bash
-   npm install
-   ```
+- 🔍 **Search Movies & Series** from the TMDB API
+- 🎞️ **Trending Movies Carousel** for quick discovery
+- 🤖 **AI-Powered Chatbot** using OpenRouter (GPT-4o)
+- 🌌 **Stylish UI** with Tailwind-powered layout (NativeWind)
+- ☁️ **Appwrite Integration** for backend functionality
 
-2. Start the app
+---
 
-   ```bash
-    npx expo start
-   ```
+## 🔧 In Development
 
-In the output, you'll find options to open the app in a
+- 👤 **User Profiles** using Appwrite Authentication
+- 📝 **Watchlist & Favorites** saving to Appwrite database
+- 📊 **Personalized Suggestions** via recent search history
+- 🌓 **Dark/Light Theme Toggle**
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🖼️ Screenshots
 
-## Get a fresh project
+> All screenshots are stored in the `/assets` folder.
 
-When you're ready, run:
+### 🟣 Splash Screen
+![Splash](./assets/splashScreen.png)
 
-```bash
-npm run reset-project
-```
+### 🏠 Home Screen
+![Home](./assets/HomeScreen.png)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 🔍 Search Screen
+![Search](./assets/SearchScreen.png)
 
-## Learn more
+### 🎬 Movie Details Screen
+![Details](./assets/MovieDetailsScreen.png)
 
-To learn more about developing your project with Expo, look at the following resources:
+### 🤖 AI Chat Screen
+![AI Chat](./assets/AichatScreen.png)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+## 📦 Tech Stack
 
-Join our community of developers creating universal apps.
+| Layer        | Tech Used               |
+|--------------|--------------------------|
+| Framework    | React Native + Expo      |
+| Styling      | Tailwind CSS (NativeWind)|
+| API          | TMDB API                 |
+| AI Assistant | OpenRouter (GPT-4o)      |
+| Backend      | Appwrite BaaS            |
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+## 📁 Folder Structure
+
