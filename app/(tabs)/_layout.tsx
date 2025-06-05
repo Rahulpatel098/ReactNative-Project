@@ -8,7 +8,7 @@ const TabIcon = ({ focused, icon, title }: { focused: boolean; icon: any; title:
   return (
     <ImageBackground
       source={images.highlight}
-      className="flex-1 min-w-[112px]  min-h-14 mt-4  justify-center items-center rounded-full overflow-hidden "
+      className="flex-1 min-w-[112px] min-h-14 mt-4  justify-center items-center rounded-full overflow-hidden  "
     >
       <Image
         source={icon}
@@ -68,9 +68,9 @@ const _layout = () => {
         }}
       />
       <Tabs.Screen
-        name="serach"
+        name="search"
         options={{
-          title: "Serach",
+          title: "search",
           headerShown: false,
           tabBarIcon: ({ focused }) => (
             <TabIcon 
